@@ -1,0 +1,30 @@
+body {
+    background-image: url(background.jpg);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: inherit;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    border: solid 1px black;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.root {
+    width: 1900px;
+    position: absolute;
+    /* left: 50%;
+    margin-left: -950px; */
+}
