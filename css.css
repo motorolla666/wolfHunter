@@ -16,15 +16,25 @@ img {
 .cell {
     width: 150px;
     height: 150px;
-    border: solid 1px black;
+    border: transparent 1px black;
     border-radius: 50%;
     float: left;
-
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .root {
     width: 1900px;
     position: absolute;
-    /* left: 50%;
-    margin-left: -950px; */
+}
+
+p {
+    font-size: 60px;
+    color: rgb(43, 202, 38);
+    text-align: right;
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }

@@ -1,9 +1,6 @@
-
 let counter = 0;
 let counterElement = document.getElementById("counter-element");
 let player = document.getElementById("pl");
-
-
 
 
 
@@ -23,3 +20,10 @@ setInterval(() => {
 
     }
 }, 1700);
+
+
+function soundClick() {
+    let audio = new Audio(); // Создаём новый элемент Audio
+    audio.src = 'background.mp3'; // Указываем путь к звуку "клика"
+    audio.autoplay = true; // Автоматически запускаем
+}
